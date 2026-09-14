@@ -1,63 +1,345 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Recetas PACOmer</title>
-<style>
-:root{--bg:#f6f1e8;--paper:#fffdf9;--ink:#302b26;--muted:#756d64;--accent:#b95728;--soft:#f0d8c7;--line:#e4d9cc;--shadow:0 8px 25px rgba(60,45,30,.08)}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
-header{background:linear-gradient(135deg,#fffaf2,#f1e1d0);border-bottom:1px solid var(--line)}
-.hero{max-width:1180px;margin:auto;padding:28px 22px 30px;text-align:center}.brand-logo{width:145px;height:145px;object-fit:contain}.brand-name{font:700 22px Georgia,serif;margin:4px 0}.sub{color:var(--muted);margin:0 auto 20px}.search{width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:14px;font-size:16px;background:#fff;outline:0}
-main{max-width:1180px;margin:auto;padding:25px 22px 55px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.filters button,.back{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:9px 14px;color:var(--ink);cursor:pointer}.filters button.active,.filters button:hover,.back:hover{background:var(--accent);border-color:var(--accent);color:#fff}.count{font-size:13px;color:var(--muted);margin:8px 0 18px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);cursor:pointer;transition:.15s}.card:hover{transform:translateY(-2px)}.card-img{width:100%;height:190px;object-fit:cover;background:#eee}.card-content{padding:18px}.card h2{font-size:22px;margin:5px 0 8px}.cat{color:var(--accent);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em}.preview{color:var(--muted);font-size:14px;line-height:1.5}
-.recipe{display:none;max-width:950px;margin:auto}.recipe.show{display:block}.back{margin-bottom:18px}.recipe-title h1{font:700 42px Georgia,serif;margin:8px 0}.recipe-image{width:100%;max-height:500px;object-fit:cover;border-radius:20px;margin:8px 0 25px;box-shadow:var(--shadow)}.body{display:grid;grid-template-columns:290px 1fr;gap:24px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:21px}.panel h2{font:700 22px Georgia,serif;margin-top:0}.ing{padding:9px 0;border-bottom:1px solid var(--line)}.ing:last-child{border-bottom:0}.steps{counter-reset:step}.step{display:grid;grid-template-columns:38px 1fr;gap:12px;margin:0 0 18px;line-height:1.65}.num{width:30px;height:30px;border-radius:50%;background:var(--soft);color:var(--accent);display:grid;place-items:center;font-weight:800}.empty{text-align:center;color:var(--muted);padding:50px}
-@media(max-width:720px){.hero{padding:20px 16px 24px}.brand-logo{width:115px;height:115px}.recipe-title h1{font-size:33px}.body{grid-template-columns:1fr}main{padding:20px 16px 45px}.grid{grid-template-columns:1fr}.card-img{height:220px}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recetas PACOmer</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #faf8f4;
+      color: #292722;
+    }
+    header {
+      background: #fff;
+      border-bottom: 1px solid #e8e2d8;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .header-inner {
+      max-width: 1180px;
+      margin: auto;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .logo {
+      width: 170px;
+      height: 58px;
+      object-fit: contain;
+      object-position: left center;
+      flex-shrink: 0;
+    }
+    .search {
+      width: 100%;
+      max-width: 480px;
+      margin-left: auto;
+      padding: 12px 16px;
+      border: 1px solid #ddd6ca;
+      border-radius: 12px;
+      background: #faf8f4;
+      font-size: 15px;
+      outline: none;
+    }
+    .search:focus { border-color: #aaa092; }
+
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 34px 20px 60px;
+    }
+    .intro { margin-bottom: 28px; }
+    h1 {
+      margin: 0 0 6px;
+      font-size: clamp(30px, 5vw, 46px);
+      letter-spacing: -1px;
+    }
+    .intro p {
+      margin: 0;
+      color: #746e64;
+      font-size: 16px;
+    }
+
+    .recipes {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #e8e2d8;
+      border-radius: 18px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(40, 32, 20, .08);
+    }
+    .card-image {
+      width: 100%;
+      height: 205px;
+      display: block;
+      object-fit: cover;
+      background: #eee9e0;
+    }
+    .card-body { padding: 18px 18px 20px; }
+    .card h2 {
+      margin: 0;
+      font-size: 21px;
+      line-height: 1.25;
+    }
+    .card .count {
+      margin-top: 9px;
+      color: #81796e;
+      font-size: 13px;
+    }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(20, 18, 15, .58);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 20;
+    }
+    .modal.open { display: flex; }
+    .modal-content {
+      background: #fff;
+      width: min(900px, 100%);
+      max-height: 92vh;
+      overflow-y: auto;
+      border-radius: 20px;
+      position: relative;
+    }
+    .modal-image {
+      width: 100%;
+      height: min(380px, 45vh);
+      object-fit: cover;
+      display: block;
+      background: #eee9e0;
+    }
+    .modal-body { padding: 28px 30px 34px; }
+    .modal h2 {
+      margin: 0 0 24px;
+      font-size: 32px;
+      letter-spacing: -.5px;
+    }
+    .modal h3 {
+      margin: 24px 0 10px;
+      font-size: 18px;
+    }
+    .modal ul, .modal ol {
+      margin: 0;
+      padding-left: 24px;
+      line-height: 1.65;
+    }
+    .modal li { margin-bottom: 6px; }
+    .close {
+      position: absolute;
+      right: 14px;
+      top: 14px;
+      width: 42px;
+      height: 42px;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(255,255,255,.92);
+      font-size: 25px;
+      cursor: pointer;
+      z-index: 2;
+    }
+    .empty {
+      text-align: center;
+      color: #81796e;
+      padding: 50px 10px;
+      grid-column: 1 / -1;
+    }
+
+    @media (max-width: 650px) {
+      .header-inner { padding: 10px 14px; gap: 10px; }
+      .logo { width: 125px; height: 48px; }
+      .search { font-size: 14px; padding: 10px 12px; }
+      main { padding: 25px 14px 45px; }
+      .recipes { grid-template-columns: 1fr; gap: 18px; }
+      .card-image { height: 220px; }
+      .modal-body { padding: 22px 20px 28px; }
+      .modal h2 { font-size: 27px; }
+    }
+  </style>
 </head>
 <body>
-<header><div class="hero"><img class="brand-logo" src="logo-pacomer.png" alt="Recetas PACOmer"><div class="brand-name">Recetas PACOmer</div><p class="sub">Tus recetas, ordenadas y listas para consultar.</p><input class="search" id="search" placeholder="Buscar receta, ingrediente o preparación…"></div></header>
-<main>
-<section id="listing"><div class="filters" id="filters"></div><div class="count" id="count"></div><div class="grid" id="grid"></div></section>
-<section id="recipe" class="recipe"></section>
-</main>
-<script>
-const MD_FILE='recetas.md';
-let recipes=[]; let activeCategory='Todas';
+  <header>
+    <div class="header-inner">
+      <img class="logo" src="logo-pacomer.png" alt="Recetas PACOmer">
+      <input id="search" class="search" type="search" placeholder="Buscar receta, ingrediente...">
+    </div>
+  </header>
 
-function parseMarkdown(md){
-  const blocks=md.split(/\n(?=## )/).filter(b=>b.trim().startsWith('## '));
-  return blocks.map(block=>{
-    const lines=block.split('\n');
-    const name=lines[0].replace(/^##\s+/,'').trim();
-    const imageLine=lines.find(x=>/^\*\*Imagen:\*\*/.test(x));
-    const image=imageLine?imageLine.match(/`([^`]+)`/)?.[1]:null;
-    const ingStart=lines.findIndex(x=>x.trim()==='### Ingredientes');
-    const elStart=lines.findIndex(x=>x.trim()==='### Elaboración');
-    const ingredients=ingStart>=0&&elStart>ingStart?lines.slice(ingStart+1,elStart).filter(x=>x.trim().startsWith('- ')).map(x=>x.replace(/^\s*-\s*/,'').trim()):[];
-    const steps=elStart>=0?lines.slice(elStart+1).filter(x=>/^\s*\d+\.\s+/.test(x)).map(x=>x.replace(/^\s*\d+\.\s+/,'').trim()):[];
-    return {name,image,ingredients,steps};
+  <main>
+    <section class="intro">
+      <h1>Recetas PACOmer</h1>
+      <p>Recetas sencillas para cocinar y disfrutar.</p>
+    </section>
+    <section id="recipes" class="recipes">
+      <div class="empty">Cargando recetas...</div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <article class="modal-content">
+      <button class="close" id="close" aria-label="Cerrar">×</button>
+      <img id="modalImage" class="modal-image" alt="">
+      <div id="modalBody" class="modal-body"></div>
+    </article>
+  </div>
+
+<script>
+  const FALLBACK_IMAGE = "logo-pacomer.png";
+  const IMAGE_PREFIX = "images/";
+
+  const recipesContainer = document.getElementById("recipes");
+  const searchInput = document.getElementById("search");
+  const modal = document.getElementById("modal");
+  const modalImage = document.getElementById("modalImage");
+  const modalBody = document.getElementById("modalBody");
+  const closeButton = document.getElementById("close");
+
+  let recipes = [];
+
+  function escapeHtml(value) {
+    return String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function parseRecipes(markdown) {
+    const blocks = markdown.split(/\n---+\n/);
+    return blocks.map(block => {
+      const title = (block.match(/^##\s+(.+)$/m) || [,""])[1].trim();
+      if (!title) return null;
+
+      const imageMatch = block.match(/^\*\*Imagen:\*\*\s*`?([^`\n]+)`?\s*$/m);
+      const image = imageMatch ? imageMatch[1].trim() : null;
+
+      const ingredientsMatch = block.match(/###\s+Ingredientes\s*\n([\s\S]*?)(?=\n###\s+Elaboración|\s*$)/i);
+      const stepsMatch = block.match(/###\s+Elaboración\s*\n([\s\S]*?)(?=\n---+\s*$|\s*$)/i);
+
+      const ingredients = ingredientsMatch
+        ? [...ingredientsMatch[1].matchAll(/^\s*-\s+(.+)$/gm)].map(m => m[1].trim())
+        : [];
+
+      const steps = stepsMatch
+        ? [...stepsMatch[1].matchAll(/^\s*\d+\.\s+(.+)$/gm)].map(m => m[1].trim())
+        : [];
+
+      return { title, image, ingredients, steps };
+    }).filter(Boolean);
+  }
+
+  function resolveImage(recipe) {
+    if (!recipe.image) return FALLBACK_IMAGE;
+    const image = recipe.image.replace(/^["']|["']$/g, "");
+    return image.startsWith("images/") ? image : IMAGE_PREFIX + image;
+  }
+
+  function render(filter = "") {
+    const q = filter.trim().toLowerCase();
+    const visible = recipes.filter(recipe => {
+      if (!q) return true;
+      return [
+        recipe.title,
+        ...recipe.ingredients,
+        ...recipe.steps
+      ].join(" ").toLowerCase().includes(q);
+    });
+
+    if (!visible.length) {
+      recipesContainer.innerHTML = '<div class="empty">No se han encontrado recetas.</div>';
+      return;
+    }
+
+    recipesContainer.innerHTML = visible.map((recipe, index) => `
+      <article class="card" data-index="${recipes.indexOf(recipe)}">
+        <img class="card-image"
+             src="${escapeHtml(resolveImage(recipe))}"
+             alt="${escapeHtml(recipe.title)}"
+             onerror="this.onerror=null;this.src='${FALLBACK_IMAGE}'">
+        <div class="card-body">
+          <h2>${escapeHtml(recipe.title)}</h2>
+          <div class="count">${recipe.ingredients.length} ingredientes</div>
+        </div>
+      </article>
+    `).join("");
+
+    document.querySelectorAll(".card").forEach(card => {
+      card.addEventListener("click", () => openRecipe(Number(card.dataset.index)));
+    });
+  }
+
+  function openRecipe(index) {
+    const recipe = recipes[index];
+    modalImage.src = resolveImage(recipe);
+    modalImage.alt = recipe.title;
+    modalImage.onerror = () => {
+      modalImage.onerror = null;
+      modalImage.src = FALLBACK_IMAGE;
+    };
+
+    modalBody.innerHTML = `
+      <h2>${escapeHtml(recipe.title)}</h2>
+      <h3>Ingredientes</h3>
+      <ul>${recipe.ingredients.map(i => `<li>${escapeHtml(i)}</li>`).join("")}</ul>
+      <h3>Elaboración</h3>
+      <ol>${recipe.steps.map(s => `<li>${escapeHtml(s)}</li>`).join("")}</ol>
+    `;
+
+    modal.classList.add("open");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeModal() {
+    modal.classList.remove("open");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  }
+
+  closeButton.addEventListener("click", closeModal);
+  modal.addEventListener("click", e => {
+    if (e.target === modal) closeModal();
   });
-}
-function categories(){return ['Todas'];}
-function esc(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function render(){
- const q=document.getElementById('search').value.toLowerCase().trim();
- const list=recipes.filter(r=>{const hay=(r.name+' '+r.ingredients.join(' ')+' '+r.steps.join(' ')).toLowerCase();return !q||hay.includes(q)});
- document.getElementById('count').textContent=`${list.length} receta${list.length===1?'':'s'}`;
- document.getElementById('grid').innerHTML=list.length?list.map((r,i)=>`<article class="card" onclick="openRecipe(${recipes.indexOf(r)})">${r.image?`<img class="card-img" src="${esc(r.image)}" alt="${esc(r.name)}">`:''}<div class="card-content"><div class="cat">Receta</div><h2>${esc(r.name)}</h2><div class="preview">${esc(r.ingredients.slice(0,4).join(' · '))}</div></div></article>`).join(''):'<div class="empty">No se han encontrado recetas.</div>';
-}
-function openRecipe(i){
- const r=recipes[i];
- document.getElementById('listing').style.display='none'; const el=document.getElementById('recipe');el.classList.add('show');
- el.innerHTML=`<button class="back" onclick="closeRecipe()">← Volver a recetas</button><div class="recipe-title"><h1>${esc(r.name)}</h1></div>${r.image?`<img class="recipe-image" src="${esc(r.image)}" alt="${esc(r.name)}">`:''}<div class="body"><aside class="panel"><h2>Ingredientes</h2>${r.ingredients.map(x=>`<div class="ing">${esc(x)}</div>`).join('')}</aside><section class="panel"><h2>Elaboración</h2><div class="steps">${r.steps.map((x,n)=>`<div class="step"><div class="num">${n+1}</div><div>${esc(x)}</div></div>`).join('')}</div></section></div>`;
- history.pushState({recipe:i},'',`#receta-${i}`); window.scrollTo(0,0);
-}
-function closeRecipe(){document.getElementById('recipe').classList.remove('show');document.getElementById('listing').style.display='block';history.pushState({},'',location.pathname);window.scrollTo(0,0);}
-async function init(){
- try{const md=await fetch(MD_FILE).then(r=>{if(!r.ok)throw new Error('No se pudo cargar recetas.md');return r.text()});recipes=parseMarkdown(md);render();}
- catch(e){document.getElementById('grid').innerHTML='<div class="empty">No se ha podido cargar <strong>recetas.md</strong>. Comprueba que está en la misma carpeta que index.html.</div>';console.error(e)}
-}
-document.getElementById('search').addEventListener('input',render);window.addEventListener('popstate',()=>{if(!location.hash)closeRecipe()});init();
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") closeModal();
+  });
+  searchInput.addEventListener("input", e => render(e.target.value));
+
+  fetch("recetas.md")
+    .then(response => {
+      if (!response.ok) throw new Error("No se pudo cargar recetas.md");
+      return response.text();
+    })
+    .then(markdown => {
+      recipes = parseRecipes(markdown);
+      render();
+    })
+    .catch(error => {
+      console.error(error);
+      recipesContainer.innerHTML = `
+        <div class="empty">
+          No se han podido cargar las recetas.<br>
+          Comprueba que <strong>recetas.md</strong> está en la raíz del repositorio.
+        </div>`;
+    });
 </script>
-</body></html>
+</body>
+</html>
