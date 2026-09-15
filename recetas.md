@@ -236,3 +236,228 @@
 4. Añadir la crème fraîche y remover hasta que quede bien integrada.
 5. Incorporar la mantequilla y remover hasta obtener una salsa homogénea.
 6. Opcionalmente, añadir el jugo del caldo que haya quedado en la bandeja del horno para darle un toque adicional de sabor.
+
+---
+
+## Cheesecake de turrón
+
+### Ingredientes
+
+- 300 ml de nata
+- 2 ramas de vainilla
+- 170 g de turrón de Jijona
+- 500 g de queso crema
+- 250 g de queso mascarpone
+- 180 g de azúcar (moreno dará mejor color)
+- 6 huevos
+- 150 g de galletas
+- 80 g de mantequilla
+- 80 g de turrón de Jijona para la base
+
+### Elaboración
+
+1. Precalentar el horno a 180 °C.
+2. Llevar a ebullición 300 ml de nata con 2 ramas de vainilla y dejar infusionar.
+3. Colocar en un bol 170 g de turrón de Jijona, el queso crema, el queso mascarpone, el azúcar y los huevos.
+4. Añadir la nata infusionada y mezclar hasta integrar.
+5. Para la base, triturar 150 g de galletas e integrar primero con 80 g de mantequilla y 80 g de turrón de Jijona.
+6. Añadir el resto de la galleta triturada y mezclar bien.
+7. Forrar la tartera con papel de horno y cubrir el fondo con la mezcla de la base.
+8. Añadir la mezcla del cheesecake colándola y ayudarse de una cuchara para repartirla mejor sobre la base.
+9. Hornear durante 45 minutos.
+10. Dejar enfriar a temperatura ambiente y después guardar en la nevera.
+
+---
+
+## Pan bao
+
+### Ingredientes
+
+- 150 ml de agua
+- 18 g de azúcar
+- 6 g de levadura fresca
+- 18 ml de aceite
+- 300 g de harina
+
+### Elaboración
+
+1. Añadir el agua, el azúcar y la levadura fresca.
+2. Poner a 37 °C, potencia 2, velocidad 1 durante 1 minuto.
+3. Añadir el aceite y la harina.
+4. Mezclar en la Mambo con la pala a velocidad 2 durante 3 minutos.
+5. Dejar reposar la masa.
+6. Una vez reposada, hacer bolas de 50 g.
+7. Amasar cada bola, dar forma al bao y pintar el interior con aceite suave.
+8. Cocinar durante 6 minutos en la vaporera.
+
+---
+
+## Noodles con gambas y verdura
+
+### Ingredientes
+
+- 1/2 cebolla morada
+- Pimiento verde
+- Pimiento rojo
+- Pimentón
+- Comino
+- Ketchup o salsa de tomate
+- 1 cucharada y media de salsa de cacahuete
+- 1 cucharada de salsa de soja
+- 2 cucharadas de vinagre de arroz
+- 1 cucharada de miel
+- Gambas (al gusto)
+- Un poco de agua (medio vaso)
+- Noodles
+- Cebolleta
+- Sésamo
+
+### Elaboración
+
+1. Cortar la cebolla morada y los pimientos en trozos medianos y saltearlos.
+2. Añadir pimentón, comino, ketchup o salsa de tomate, salsa de cacahuete, salsa de soja, vinagre de arroz y miel. Remover bien para integrar todo.
+3. Añadir las gambas y remover.
+4. Incorporar medio vaso de agua, cocinar las gambas y dejar reducir un poco la mezcla.
+5. Hervir los noodles.
+6. Mezclar los noodles con la salsa.
+7. Servir con un poco de cebolleta picada y sésamo por encima.
+
+---
+
+## Pollo teriyaki
+
+### Ingredientes
+
+- Pollo
+- Aceite
+- Sal
+- Pimienta
+- Jengibre
+- 3 cucharadas de salsa de soja
+- 3 cucharadas de vinagre de arroz
+- Puerros
+- Sésamo
+
+### Elaboración
+
+1. Cortar el pollo en tiras.
+2. Dorar las tiras de pollo con un poco de aceite, sal, pimienta y jengibre picado en el mortero.
+3. Una vez dorado, añadir la salsa de soja y el vinagre de arroz.
+4. Dejar cocer hasta que caramelice.
+5. Rehogar los puerros aparte.
+6. Mezclar los puerros con el pollo y añadir sésamo.
+
+---
+
+## Pasta con salsa de cebolla y anchoas
+
+### Ingredientes
+
+- 1 cebolla grande
+- 1 cubo de mantequilla
+- 50-75 ml de caldo de pollo
+- Anchoas (al gusto)
+- Pasta
+- Queso para rallar
+
+### Elaboración
+
+1. Caramelizar la cebolla.
+2. Derretir un cubo de mantequilla y emulsionar.
+3. Triturar la cebolla caramelizada y la mantequilla junto con 50-75 ml de caldo de pollo y anchoas al gusto.
+4. Hervir la pasta.
+5. Mezclar la pasta con la salsa.
+6. Rallar queso por encima y servir.
+
+---
+
+## Aceite de ajo
+
+### Ingredientes
+
+- 1 cabeza de ajos con piel
+- Aceite
+
+### Elaboración
+
+1. Machacar en un mortero la cabeza de ajos con piel.
+2. Poner los ajos en un cazo y cubrirlos con aceite.
+3. Cocinar a fuego medio hasta que se doren poco a poco y estén blandos, aproximadamente 30-45 minutos.
+4. Colar el aceite y guardarlo en un bote o biberón.
+
+---
+
+## Huevos marinados
+
+### Ingredientes
+
+- 150 ml de agua
+- 150 ml de salsa de soja suave
+- 1 cucharada de miel
+- 2 dientes de ajo machacados
+- 1/2 cebolla
+- 1/2 pimiento rojo
+- Un chorrito de aceite de sésamo
+
+### Elaboración
+
+1. Mezclar el agua con la salsa de soja suave.
+2. Añadir la miel, los dientes de ajo machacados, la cebolla, el pimiento rojo y un chorrito de aceite de sésamo.
+3. Remover para integrar los ingredientes y utilizar la mezcla para marinar los huevos.
+
+---
+
+## Ramen kombu
+
+### Ingredientes
+
+- Alga kombu
+- Setas shiitake deshidratadas
+- Tofu
+- Champiñones
+- 4 cucharadas de salsa de soja
+- 2 cucharadas de vinagre de arroz
+- 1 cucharada de sake
+- Huevos
+- Costillas u otro tipo de carne de cerdo
+- Ramen o noodles
+- Sésamo, cebolleta fresca y/o puerro para terminar
+
+### Elaboración
+
+1. Infusionar el alga kombu y las setas shiitake deshidratadas.
+2. Mientras tanto, marinar el tofu y los champiñones con 4 cucharadas de salsa de soja, 2 cucharadas de vinagre de arroz y 1 cucharada de sake.
+3. Cocer los huevos durante 4-5 minutos.
+4. Sofreír las costillas u otro tipo de carne de cerdo.
+5. Cuando la carne esté hecha, añadir el caldo infusionado.
+6. Cuando hierva, echar el ramen o los noodles y cocinar hasta que estén hechos.
+7. Sellar el tofu y los champiñones a fuego fuerte durante unos segundos o minutos.
+8. Montar el ramen en un cuenco con caldo, carne, fideos, tofu, champiñones y huevo.
+9. Añadir por encima sésamo, cebolleta fresca y/o puerro cortado fino en tiras.
+
+---
+
+## Caldo de ave
+
+### Ingredientes
+
+- 3 o 4 carcasas de pollo
+- 1 cabeza de ajos
+- 2 cebollas
+- 2 zanahorias
+- 1 puerro
+- Agua hasta cubrir las carcasas y 3 dedos más
+- Aceite
+- Sal
+
+### Elaboración
+
+1. Trocear las carcasas de pollo y colocarlas sobre una bandeja de horno.
+2. Añadir la cabeza de ajos, las cebollas, las zanahorias y el puerro cortados en trozos grandes.
+3. Añadir un poco de aceite y sal y tostarlo todo bien en el horno.
+4. Pasar todo a una olla y añadir agua hasta cubrir las carcasas y unos 3 dedos más.
+5. Llevar a ebullición.
+6. Cuando empiece a hervir, desespumar y tapar.
+7. Dejar hervir durante 4 horas a fuego lento.
+8. Colar el caldo y guardarlo en la nevera hasta que se enfríe.
+9. Una vez frío, desgrasar.
