@@ -409,6 +409,8 @@
 
 ## Ramen kombu
 
+**Imagen:** `images/ramenKombu.JPEG`
+
 ### Ingredientes
 
 - Alga kombu
