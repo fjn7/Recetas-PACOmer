@@ -409,7 +409,7 @@
 
 ## Ramen kombu
 
-**Imagen:** `images/RemanKombu-Bao.jpeg`
+**Imagen:** `images/ramenKombu.JPEG`
 
 ### Ingredientes
 
