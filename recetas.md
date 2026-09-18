@@ -491,3 +491,30 @@
 6. Hornear a 180 °C durante unos 35-40 minutos, hasta que esté dorada y, al pincharla, el utensilio salga limpio.
 7. Dejar templar antes de desmoldar.
 
+---
+
+## Patatas al horno con mantequilla de ajo, perejil y tomillo
+
+**Imagen:** `images/patatasHornoCortadas.jpg`
+
+### Ingredientes
+
+* Patatas
+* Aceite de oliva
+* 1 cucharada de mantequilla
+* 2 dientes de ajo
+* 1 puñado de perejil
+* 1 cucharada grande de tomillo
+
+### Elaboración
+
+1. Lavar bien las patatas, manteniendo la piel.
+2. Cortar una pequeña base para que las patatas queden planas y colocarlas entre dos palillos de comida china.
+3. Cortar las patatas en rodajas perpendiculares de aproximadamente medio centímetro, sin llegar hasta el final gracias a los palillos.
+4. Añadir aceite de oliva por encima y ayudar a que penetre entre los cortes.
+5. Envolver las patatas en papel de aluminio.
+6. Hornear a 180 °C durante unos 45 minutos, o hasta que estén blandas.
+7. Mientras las patatas están en el horno, preparar la mantequilla de ajo, perejil y tomillo. Derretir la mantequilla en un cazo y añadir los ajos, el perejil picado y el tomillo. Remover bien hasta que el ajo esté cocinado y la mezcla tenga una textura consistente.
+8. Sacar las patatas del horno y retirar el papel de aluminio.
+9. Pintar las patatas con la mantequilla de ajo, perejil y tomillo, procurando que penetre entre los cortes.
+10. Volver a hornear a 180 °C hasta que las patatas estén al punto deseado.
