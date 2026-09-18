@@ -463,3 +463,31 @@
 7. Dejar hervir durante 4 horas a fuego lento.
 8. Colar el caldo y guardarlo en la nevera hasta que se enfríe.
 9. Una vez frío, desgrasar.
+
+---
+
+## Coca de higos
+
+**Imagen:** `images/cocaHigos.jpg`
+
+### Ingredientes
+
+* 3 huevos
+* 1 yogur natural
+* 1 vaso de aceite de oliva (utilizar el vaso del yogur como medida)
+* 2 vasos de azúcar (utilizar el vaso del yogur como medida)
+* 3 vasos de harina (utilizar el vaso del yogur como medida)
+* 1 sobre de levadura
+* 1 pizca de sal
+* 5-6 higos
+
+### Elaboración
+
+1. Poner los huevos en un bol y batirlos con unas varillas.
+2. Añadir el yogur, el azúcar y el aceite de oliva y mezclar bien.
+3. Incorporar la harina, la levadura y una pizca de sal. Mezclar hasta obtener una masa homogénea.
+4. Verter la masa en un molde previamente untado con un poco de aceite o forrado con papel de horno.
+5. Lavar los higos, cortarlos por la mitad o en cuartos y repartirlos por encima de la masa.
+6. Hornear a 180 °C durante unos 35-40 minutos, hasta que esté dorada y, al pincharla, el utensilio salga limpio.
+7. Dejar templar antes de desmoldar.
+
