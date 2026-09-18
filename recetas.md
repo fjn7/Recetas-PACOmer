@@ -472,14 +472,14 @@
 
 ### Ingredientes
 
-* 3 huevos
-* 1 yogur natural
-* 1 vaso de aceite de oliva (utilizar el vaso del yogur como medida)
-* 2 vasos de azúcar (utilizar el vaso del yogur como medida)
-* 3 vasos de harina (utilizar el vaso del yogur como medida)
-* 1 sobre de levadura
-* 1 pizca de sal
-* 5-6 higos
+- 3 huevos
+- 1 yogur natural
+- 1 vaso de aceite de oliva (utilizar el vaso del yogur como medida)
+- 2 vasos de azúcar (utilizar el vaso del yogur como medida)
+- 3 vasos de harina (utilizar el vaso del yogur como medida)
+- 1 sobre de levadura
+- 1 pizca de sal
+- 5-6 higos
 
 ### Elaboración
 
@@ -499,12 +499,12 @@
 
 ### Ingredientes
 
-* Patatas
-* Aceite de oliva
-* 1 cucharada de mantequilla
-* 2 dientes de ajo
-* 1 puñado de perejil
-* 1 cucharada grande de tomillo
+- Patatas
+- Aceite de oliva
+- 1 cucharada de mantequilla
+- 2 dientes de ajo
+- 1 puñado de perejil
+- 1 cucharada grande de tomillo
 
 ### Elaboración
 
