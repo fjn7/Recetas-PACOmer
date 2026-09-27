@@ -518,3 +518,38 @@
 8. Sacar las patatas del horno y retirar el papel de aluminio.
 9. Pintar las patatas con la mantequilla de ajo, perejil y tomillo, procurando que penetre entre los cortes.
 10. Volver a hornear a 180 °C hasta que las patatas estén al punto deseado.
+
+---
+
+## Costillas de vaca guisada
+
+**Imagen:** `images/CostillasVaca.jpeg`
+
+### Ingredientes
+
+* Costillas de vaca
+* 2-3 tomates de pera
+* 2-3 cebollas moradas
+* 2-3 zanahorias
+* Tomate concentrado
+* Vino tinto
+* Caldo de carne o ternera
+* Lima
+* Cebollino
+* Sal
+
+### Elaboración
+
+1. Sellar bien las costillas de vaca en una cazuela con un poco de aceite, hasta que estén bien doradas por todos los lados. Retirar y reservar.
+2. Sofreír las cebollas, los tomates y las zanahorias, previamente troceados.
+3. Añadir el tomate concentrado y remover bien para que se integre con las verduras.
+4. Incorporar el vino tinto y dejar reducir hasta que se haya evaporado casi por completo el alcohol.
+5. Volver a incorporar las costillas a la cazuela.
+6. Añadir el caldo de carne o ternera hasta cubrir las costillas.
+7. Desespumar el caldo y cocinar a fuego lento durante unas 2 horas y media, hasta que la carne esté muy tierna. También se puede cocinar durante aproximadamente 1 hora y media en olla exprés.
+8. Una vez cocinadas las costillas, retirarlas y colar el caldo.
+9. Dejar enfriar el caldo y retirar la grasa que quede en la superficie.
+10. Volver a poner el caldo al fuego y reducirlo hasta obtener una salsa con una textura más espesa. A mitad de la reducción se puede añadir un poco de zumo de lima.
+11. Probar la salsa y corregir de sal y de lima al gusto antes de apagar el fuego.
+12. Para emplatar, colocar la costilla en el plato y napar la carne con la salsa.
+13. Decorar con un poco de ralladura de lima y/o cebollino picado.
